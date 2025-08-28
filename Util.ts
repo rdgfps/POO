@@ -6,7 +6,6 @@ export class Util {
     }
 }
 
-const u: Util = nem Util();
+const u: Util = new Util();
 const nomeGerado = u.gerarNome();
-
-console.log
+console.log(nomeGerado);
